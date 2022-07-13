@@ -1,42 +1,42 @@
 @font-face {
   font-family: "VCR";
-  src: url("VCR_OSD_MONO_1.001.ttf");
+  src: url("fonts/VCR_OSD_MONO_1.001.ttf");
 }
 
 @font-face {
   font-family: "UP";
-  src: url("UP.ttf");
+  src: url("fonts/UP.ttf");
 }
 
 @font-face {
   font-family: "FSR";
-  src: url("FSR.ttf");
+  src: url("fonts/FSR.ttf");
 }
 
 @font-face {
   font-family: "PD";
-  src: url("PD.ttf");
+  src: url("fonts/PD.ttf");
 }
 
 @font-face {
   font-family: "SS";
-  src: url("SS.ttf");
+  src: url("fonts/SS.ttf");
 }
 
 @font-face {
   font-family: "GP";
-  src: url("GP.ttf");
+  src: url("fonts/GP.ttf");
 }
 
 
 @font-face {
   font-family: "GOTH";
-  src: url("GOTH.ttf");
+  src: url("fonts/GOTH.ttf");
 }
 
 @font-face {
   font-family: "MS";
-  src: url("MS.ttf");
+  src: url("fonts/MS.ttf");
 }
 
 body {
@@ -71,7 +71,7 @@ h1 {
 h2 {
   font-family: "MS";
   text-align: center;
-  color: #white;
+  color: white;
 }
 
 h3 {
