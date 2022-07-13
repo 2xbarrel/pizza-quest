@@ -63,6 +63,7 @@ a:visited {
 }
 
 h1 {
+  margin: 10px;
   font-family: "UP";
   font-size: 100px;
   color: white;
