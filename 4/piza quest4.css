@@ -1,0 +1,15 @@
+div {
+  width: 1000px;
+  height: 600px;
+  position: relative;
+}
+
+.img1 {
+  position: absolute;
+}
+
+.img2 {
+  position: absolute;
+  right: 120px;
+  top: 40px;
+}
