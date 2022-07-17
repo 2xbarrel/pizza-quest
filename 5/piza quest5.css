@@ -1,0 +1,22 @@
+body {
+    background-color: #ffad00;
+  }
+  
+  h1 {
+    font-family: "GP";
+    color: #ff2400;
+  }
+  
+  h2 {
+    color: #ff2400;
+  }
+  
+  h3 {
+    color: #ff2400;
+  }
+  
+  .box {
+    border: 10px solid #ff2400;
+    background-color: #ffad00;
+  }
+  
