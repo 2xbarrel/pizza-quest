@@ -13,7 +13,7 @@ let max_img = 4;
 
 function wait(milliseconds){
     return new Promise(resolve => {
-        new Audio("vine-boom.mp3").play();
+        new Audio("white-noise.mp3").play();
         setTimeout(resolve, milliseconds);
     });
 }
@@ -23,8 +23,8 @@ button1.addEventListener("click", async () => {
     if (counter < 1) {
         counter = 1;
     }
-    screen.setAttribute("src", "holyshitjedse.0.jpeg");
-    await wait(1000);
+    screen.setAttribute("src", "white-noise.gif");
+    await wait(500);
     screen.setAttribute("src", `jb${counter}.gif`); 
 });
 
@@ -33,7 +33,7 @@ button2.addEventListener("click", async () => {
     if (counter > max_img) {
         counter = max_img;
     }
-    screen.setAttribute("src", "holyshitjedse.0.jpeg");
-    await wait(1000);
+    screen.setAttribute("src", "white-noise.gif");
+    await wait(500);
     screen.setAttribute("src", `jb${counter}.gif`); 
 });
