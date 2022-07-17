@@ -3,14 +3,19 @@ div {
   height: auto;
   position: relative;
 }
+ 
+area {
+  cursor: pointer;
+}
 
 .img1 {
   height: auto;
   max-width: 700px; 
-  position: absolute;
+  /* position: absolute;  */
 }
 
 .img2 {
+  z-index: -1;
   height: auto;
   position: absolute;
   max-width: 500px; 
