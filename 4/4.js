@@ -13,7 +13,7 @@ let max_img = 4;
 
 function wait(milliseconds){
     return new Promise(resolve => {
-        new Audio("white-noise.mp3").play();
+        new Audio("normal-white-noise.mp3").play();
         setTimeout(resolve, milliseconds);
     });
 }
