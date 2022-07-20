@@ -84,6 +84,11 @@ h3 {
   text-decoration-thickness: 4px;
 }
 
+h4 {
+  font-family: "FSR";
+  text-align: center;
+  color: #6376ff;
+}
 
 .box {
   width: 90%;
