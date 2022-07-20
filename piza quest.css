@@ -84,20 +84,6 @@ h3 {
   text-decoration-thickness: 4px;
 }
 
-h4 {
-  font-size: 40px;
-  font-family: "KA";
-  text-align: center;
-  color: #0095ff;
-}
-
-h5 {
-  font-size: 90px;
-  font-family: "KA";
-  text-align: center;
-  color: #8400ff;
-}
-
 .box {
   width: 90%;
   max-width: 661px;
