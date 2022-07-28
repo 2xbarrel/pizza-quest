@@ -40,7 +40,7 @@
 }
 
 body {
-  font-family: "VCR";
+  font-family: "VCR",sans-serif;
   background-color: black;
   color: white;
   display: flex;
@@ -64,19 +64,19 @@ a:visited {
 
 h1 {
   margin: 10px;
-  font-family: "UP";
+  font-family: "UP",sans-serif;
   font-size: 90px;
   color: white;
 }
 
 h2 {
-  font-family: "MS";
+  font-family: "MS",sans-serif;
   text-align: center;
   color: white;
 }
 
 h3 {
-  font-family: "VCR";
+  font-family: "VCR",sans-serif;
   font-size: 50px;
   color: white;
   text-decoration-line: underline;
