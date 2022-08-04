@@ -21,8 +21,9 @@ body {
 }
 
 .child {
+    text-align: center;
     font-size: 90px;
-    font-family: "UP";
+    font-family: "UP", "sans-serif";
     color: #00dbff80;
     position: absolute;
     display: flex;
