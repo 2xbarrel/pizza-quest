@@ -39,6 +39,12 @@
   src: url("fonts/MS.ttf");
 }
 
+
+@font-face {
+  font-family: "FSR";
+  src: url("fonts/FSR.ttf");
+}
+
 body {
   font-family: "VCR",sans-serif;
   background-color: black;
@@ -82,6 +88,12 @@ h3 {
   text-decoration-line: underline;
   text-decoration-color: currentcolor;
   text-decoration-thickness: 4px;
+}
+
+h4 {
+  font-family: "MS",sans-serif;
+  font-size: 90px;
+  color: white;
 }
 
 .box {
