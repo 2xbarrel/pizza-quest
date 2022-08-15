@@ -7,3 +7,8 @@ setInterval(() => {
   let hr = pad(time.getHours());
   clock.textContent = `${hr}:${min}:${sec}`;
 }, 1000);
+
+const body = document.body;
+if(time.getHours() > 12){
+  body.style.backgroundColor = 'green';
+};
