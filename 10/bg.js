@@ -24,4 +24,4 @@ else {
   h3.style.color = 'white';
   box.style.borderColor = 'white';
   clock.style.color = 'white';
-};
+}
