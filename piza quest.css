@@ -45,6 +45,17 @@
   src: url("fonts/FSR.ttf");
 }
 
+@font-face {
+  font-family: "EU";
+  src: url("fonts/EU.ttf");
+}
+
+@font-face {
+  font-family: "PC";
+  src: url("fonts/PC.ttf");
+}
+
+
 body {
   font-family: "VCR",sans-serif;
   background-color: black;
@@ -82,8 +93,8 @@ h2 {
 }
 
 h3 {
-  font-family: "VCR",sans-serif;
-  font-size: 50px;
+  font-family: "EU",sans-serif;
+  font-size: 60px;
   color: white;
   text-decoration-line: underline;
   text-decoration-color: currentcolor;
