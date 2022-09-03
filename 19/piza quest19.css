@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+  }
+    
+  h1 {
+    color: black;
+  }
+    
+  h2 {
+    margin: 19px;
+    font-size: 70px;
+    color: black;
+  }
+    
+  h3 {
+    color: black;
+  }
+  
+  .box {
+    margin: 10px;
+    border: 10px solid;
+    border-color: black;
+  }
+    
+  .display {
+    margin: 100px;
+    color: black;
+    font-size: 80px;
+    font-family: "MS",sans-serif;
+  }
