@@ -1,0 +1,20 @@
+h1 {
+  font-size: 200px;
+}
+
+.box {
+  position: absolute;
+  top: 250px;
+  border: 10px solid black;
+}
+
+@media screen and (max-width: 653px) {
+    h1 {
+      font-size: 20vw;
+    }
+    
+    .box {
+     width: 15vw;
+   }
+}
+  
