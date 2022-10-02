@@ -1,0 +1,22 @@
+.img {
+  opacity: 1;
+  clip-path: circle(100px at var(--cursorX) var(--cursorY));
+  min-width: 600px;
+  position: absolute;  
+}
+
+.img2 {
+  z-index: -1;
+  min-width: 600px;
+  height: auto;
+}
+  
+.container {
+    position: relative;
+}
+
+
+:root{
+  --cursorX: 50vw;
+  --cursorY: 50vh;
+}
