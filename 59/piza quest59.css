@@ -1,6 +1,6 @@
   .img {
     opacity: 1;
-    clip-path: circle(100px at var(--cursorX) var(--cursorY));
+    clip-path: circle(6vmax at var(--cursorX) var(--cursorY));
     max-width: 700px;
     position: absolute;  
     height: auto;
