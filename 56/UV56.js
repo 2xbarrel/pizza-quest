@@ -7,7 +7,7 @@ function update(e){
     document.documentElement.style.setProperty('--cursorY', y-walter.y + 'px')
 }
   
-  document.addEventListener('mousemove',update)
+  document.addEventListener('pointermove',update)
   document.addEventListener('touchmove',update)
 
 function flicker(){
