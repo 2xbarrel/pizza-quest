@@ -11,8 +11,8 @@ let checked = false;
 spook.addEventListener("pointerenter", async (event) => {
   if (!checked) {
     new Audio("bam.mp3").play();
-    await wait(2000);
-    window.open("../41/pizaquest41.html", "_self")
+    await wait(3000);
+    window.open("../63/pizaquest63.html", "_self")
   }
 });
 

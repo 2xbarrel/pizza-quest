@@ -1,0 +1,16 @@
+body {
+    font-family: "VCR",sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.walter {
+    opacity: 100%;
+    width: 100%;
+    max-width: 1000px; 
+    height: auto;
+}
