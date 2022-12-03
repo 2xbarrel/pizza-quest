@@ -1,0 +1,85 @@
+  h1 {
+    color: transparent;
+    text-shadow: 0 0 10px black;
+  }
+  
+  h2 {
+    color: transparent;
+    text-shadow: 0 0 5px black;
+  }
+  
+  h3 {
+    color: transparent;
+    text-shadow: 0 0 9px black;
+  }
+  
+  h4 {
+    color: transparent;
+    text-shadow: 0 0 5px black;
+  }
+  
+  .box {
+    border: 10px solid black;
+    filter: blur(5px);
+  }
+
+  body {
+    background-color: black;
+    animation: body 4s linear 2s 1 normal forwards;
+  }
+
+  .img {
+    opacity: 0;
+    filter: blur(5px);
+    animation: image 4s linear 2s 1 normal forwards;
+  }
+
+  .martha {
+    color: transparent;
+    animation: martha 4s linear 2s 1 normal forwards;
+  }
+
+  .steven {
+    color: transparent;
+    animation: steven 4s linear 2s 1 normal forwards;
+  }
+
+  @keyframes body {
+    from {
+      background-color: black;
+    }
+  
+    to {
+      background-color: #3b2d42;
+    }
+  }
+  
+  @keyframes martha {
+    from {
+      color: transparent;
+    }
+
+    to {
+      color: #750085;
+    }
+  }
+
+  @keyframes steven {
+    from {
+      color: transparent;
+    }
+
+    to {
+      color: #0c7500;
+    }
+  }
+
+  @keyframes image {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }

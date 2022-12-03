@@ -1,0 +1,32 @@
+h1 {
+    color: transparent;
+    text-shadow: 0 0 4px black;
+  }
+  
+  h2 {
+    color: transparent;
+    text-shadow: 0 0 2px black;
+  }
+  
+  h3 {
+    color: transparent;
+    text-shadow: 0 0 4px black;
+  }
+  
+  h4 {
+    color: transparent;
+    text-shadow: 0 0 2px black;
+  }
+  
+  .box {
+    border: 10px solid black;
+    filter: blur(2px);
+  }
+
+  body {
+    background-color: #3b2d42;
+  }
+
+  .img {
+    filter: blur(2px);
+  }

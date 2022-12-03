@@ -1,0 +1,28 @@
+h1 {
+    color: black;
+  }
+  
+  h2 {
+    color: black;
+  }
+  
+  h3 {
+    color: black;
+  }
+  
+  h4 {
+    color: black;
+  }
+  
+  .box {
+    border: 10px solid black;
+  }
+
+  body {
+    background-color: #3b2d42;
+  }
+
+
+  .jef {
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+  }

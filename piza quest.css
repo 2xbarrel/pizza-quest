@@ -73,6 +73,14 @@ body {
   color: #850500;
 }
 
+.steven{
+  color: #0c7500;
+}
+
+.martha{
+  color: #750085;
+}
+
 .authornote{
   color: #acacac;
 }
@@ -92,7 +100,6 @@ body {
   max-width: 700px; 
   height: auto;
 }
-
 
 a {
   text-decoration: none;
