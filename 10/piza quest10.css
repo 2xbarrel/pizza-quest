@@ -7,7 +7,8 @@ h1 {
 }
   
 h2 {
-  color: black;
+  color: #1b316b;
+  text-shadow: -1.5px -1.5px 0 rgba(0, 0, 0, 0), 1.5px -1.5px 0 rgba(0, 0, 0, 0), -1.5px 1.5px 0 rgba(0, 0, 0, 0), 1.5px 1.5px 0 rgba(0, 0, 0, 0);
 }
   
 h3 {

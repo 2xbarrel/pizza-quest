@@ -20,7 +20,7 @@ else if(time.getHours() >= 17 && time.getHours() < 21){
 else {
   body.style.backgroundColor = '#2a294a';
   h1.style.color = 'white';
-  h2.style.color = 'white';
+  h2.style.textShadow = '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000';
   h3.style.color = 'white';
   box.style.borderColor = 'white';
   night.setAttribute("src", "15.1.png");
