@@ -1,0 +1,30 @@
+html {
+    min-height: 100vh;
+    background: 
+      linear-gradient(to bottom, #000 50%, rgb(56, 29, 21));
+    overflow: hidden;
+    --part-size: 50px;
+  }
+  .fire_shaft {
+    position: absolute;
+    bottom: 0;
+  }
+  .particle {
+    width: var(--part-size);
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    opacity: .75;
+    background: darkorange;
+    position: absolute;
+    top: 100%;
+    filter: blur(5px);
+    animation: burn 1s linear forwards;
+  }
+  @keyframes burn {
+    100% { 
+      transform: scale(.5);
+      top: 0; 
+      opacity: 0;
+  /*     background: gray; */
+    }
+  }
