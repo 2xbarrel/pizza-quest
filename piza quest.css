@@ -89,6 +89,10 @@ body {
   font-size: 50px;
 }
 
+.smalltext{
+  font-size: 14px;
+}
+
 .outline {
   text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
 }
