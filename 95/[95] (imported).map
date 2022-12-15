@@ -1,0 +1,16 @@
+<img src="[95] (imported)" width="1000" height="600" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:sexi barl lol -->
+<area shape="poly" coords="16,283,24,533,94,537,188,467,187,303,143,295,146,263,113,246,96,246,95,230,65,228,65,282" href="drawer" />
+<area shape="poly" coords="361,285,364,352,372,364,448,369,447,274,416,273,399,264,374,264" href="electric shield" />
+<area shape="poly" coords="487,119,496,117,499,163,532,173,531,179,506,180,507,186,479,191,478,180,443,183,443,176,482,165" href="brokenlamp" />
+<area shape="poly" coords="807,410,782,406,759,417,771,464,789,465,803,460,813,469,833,472,846,464,845,461,831,460,827,452,831,439,832,435,824,429,831,300,823,291,817,295,811,332" href="bucketandmop" />
+<area shape="poly" coords="848,266,955,250,951,524,848,462" href="door" />
+<area shape="poly" coords="959,314,985,311,984,367,960,363" href="lightswitch" />
+<area shape="poly" coords="717,547,719,565,847,559,846,540" href="pipe" />
+</map>
