@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../piza quest.css">
+    <link rel="stylesheet" href="../95/UV95.css">
+    <link rel="stylesheet" href="../102/piza quest102.css">
+    <script src="../95/UV95.js" defer></script>
+    <script src="../95/toggle95.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="../4/tv/jquery.rwdImageMaps.min.js" defer></script>
+    <script src="../4/room.js" defer></script>
+    <link rel="icon" type="image/png" href="../icon.png"> 
+    <title>PIZZA QUEST</title>
+  </head>
+  <body>
+  <h1>PIZZA QUEST</h1>
+  <div class="container">
+    <img id="walter" class="img" src="105-3.png" alt="lol">
+    <img class="img2" usemap="#doors" src="105-2.png">
+    <map name="doors">
+        <area shape="rect" coords="548,195,686,416" href="cold.html" />
+        <area shape="poly" coords="794,211,917,181,915,501,796,432" href="warmer.html" />
+    </map>
+  </div>
+  <div class="container">
+  <img class="img2" usemap="#inventory" src="inventory105.png">
+  <map name="inventory">
+        <area shape="rect" coords="761,23,968,188" onclick="toggleV()" />
+  </map>
+  </body>
+</html> 

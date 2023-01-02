@@ -1,0 +1,23 @@
+h1 {
+  color: black;
+}
+  
+h2 {
+  color: black;
+}
+  
+h3 {
+  color: black;
+}
+  
+h4 {
+  color: black;
+}
+  
+.box {
+  border: 10px solid black;
+}
+
+body {
+  background-color: #2d3b42;
+}
