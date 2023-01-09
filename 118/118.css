@@ -1,0 +1,43 @@
+.container {
+    position: relative;
+}
+
+.img {
+    opacity: 1;
+    max-width: 1000px;
+    position: absolute;  
+    height: auto;
+    width: 100%
+}
+  
+.img2 {
+    opacity: 1;
+    z-index: -1;
+    max-width: 1000px;
+    height: auto;
+    width: 100%
+}
+
+h1 {
+  color: black;
+}
+    
+h2 {
+  color: black;
+}
+    
+h3 {
+  color: black;
+}
+    
+h4 {
+  color: black;
+}
+    
+.box {
+  border: 10px solid black;
+}
+  
+body {
+  background-color: #2d3042;
+}
