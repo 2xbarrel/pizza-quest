@@ -1,1 +1,1 @@
-new Audio("spookyvoice.mp3").play();
+new Audio("spookyvoice1.mp3").play();
