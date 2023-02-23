@@ -1,0 +1,11 @@
+.img {
+    cursor: url('../31/cursor.png'), pointer;
+    width: 100%;
+    max-width: 1000px; 
+    height: auto;
+}
+
+.spook {
+    cursor: url('../31/cursor.png');
+}
+    
