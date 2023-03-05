@@ -105,7 +105,7 @@ function changeText(){
     else if (input == "tell me a joke"){
         document.getElementById("output").innerHTML = "no fuck off";
     }
-    else if (input == "what is a correct password"){
+    else if (input == "what is the correct password"){
         document.getElementById("output").innerHTML = "its 'correct password'";
     }
     else if (input == "yippee"){
