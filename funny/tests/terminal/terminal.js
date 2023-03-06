@@ -117,6 +117,12 @@ function changeText(){
     else if (input == "god"){
         document.getElementById("output").innerHTML = "seeker";
     }
+    else if (input == "juno is gay", "junoisgay", "junoisbiggay", "junolikesdick", "junoisahomo", "junoisafemboy"){
+        document.getElementById("output").innerHTML = "he is??? damnnn :lipbite: whats his @";
+    }
+    else if (input == "juno is gay"){
+        document.getElementById("output").innerHTML = "he is??? damnnn :lipbite: whats his @";
+    }
     else {
         document.getElementById("output").innerHTML = "WRONG YOU DUMB SHIT ABSOLUTE BAFOON GOD HOW FUCKING DUMB ARE YOU JESUS CHRIST";
     };
