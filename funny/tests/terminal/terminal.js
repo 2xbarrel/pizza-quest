@@ -72,9 +72,6 @@ function changeText(){
     else if (input == "блять"){
         document.getElementById("output").innerHTML = "shut up";
     }
-    else if (input == "блять"){
-        document.getElementById("output").innerHTML = "shut up";
-    }
     else if (input == "jef"){
         document.getElementById("output").innerHTML = "you and I are not so different";
     }
@@ -119,6 +116,9 @@ function changeText(){
     }
     else if (input == "juno is gay", "junoisgay", "junoisbiggay", "junolikesdick", "junoisahomo", "junoisafemboy"){
         document.getElementById("output").innerHTML = "he is??? damnnn :lipbite: whats his @";
+    }
+    else if (input == "barrel sucks", "barrelsucks"){
+        document.getElementById("output").innerHTML = "NO I DONT, YOU DO, SHUT UP";
     }
     else {
         document.getElementById("output").innerHTML = "WRONG YOU DUMB SHIT ABSOLUTE BAFOON GOD HOW FUCKING DUMB ARE YOU JESUS CHRIST";
