@@ -114,10 +114,25 @@ function changeText(){
     else if (input == "god"){
         document.getElementById("output").innerHTML = "seeker";
     }
-    else if (input == "juno is gay", "junoisgay", "junoisbiggay", "junolikesdick", "junoisahomo", "junoisafemboy"){
+    else if (input == "juno is gay"){
         document.getElementById("output").innerHTML = "he is??? damnnn :lipbite: whats his @";
     }
-    else if (input == "barrel sucks", "barrelsucks"){
+    else if (input == "junoisgay"){
+        document.getElementById("output").innerHTML = "he is??? damnnn :lipbite: whats his @";
+    }
+    else if (input == "junoisbiggay"){
+        document.getElementById("output").innerHTML = "he is??? damnnn :lipbite: whats his @";
+    }
+    else if (input == "junolikesdick"){
+        document.getElementById("output").innerHTML = "he is??? damnnn :lipbite: whats his @";
+    }
+    else if (input == "junoisahomo"){
+        document.getElementById("output").innerHTML = "he is??? damnnn :lipbite: whats his @";
+    }
+    else if (input == "junoisafemboy"){
+        document.getElementById("output").innerHTML = "he is??? damnnn :lipbite: whats his @";
+    }
+    else if (input == "barrel sucks"){
         document.getElementById("output").innerHTML = "NO I DONT, YOU DO, SHUT UP";
     }
     else {
