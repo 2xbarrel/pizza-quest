@@ -1,0 +1,20 @@
+
+h1 {
+    animation: rising 3s linear 1.5s normal forwards;
+    position:relative;
+}
+
+.box {
+    position:relative;
+    animation: rising 3s linear 1.5s normal forwards;
+}
+
+.img {
+    position:relative;
+    animation: rising 3s linear 1.5s normal forwards;
+}
+
+@keyframes rising {
+    0%{top:0px}
+    100%{top:-1000px}
+}

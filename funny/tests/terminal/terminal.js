@@ -135,6 +135,12 @@ function changeText(){
     else if (input == "barrel sucks"){
         document.getElementById("output").innerHTML = "NO I DONT, YOU DO, SHUT UP";
     }
+    else if (input == "cock"){
+        document.getElementById("output").innerHTML = "balls";
+    }
+    else if (input == "balls"){
+        document.getElementById("output").innerHTML = "cock";
+    }
     else {
         document.getElementById("output").innerHTML = "WRONG YOU DUMB SHIT ABSOLUTE BAFOON GOD HOW FUCKING DUMB ARE YOU JESUS CHRIST";
     };
