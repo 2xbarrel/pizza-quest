@@ -17,8 +17,17 @@
     
   .container {
       position: relative;
+      max-width: 700px;
   }
   
+  .img3 {
+    position: absolute; 
+    opacity: 0;
+    z-index: 2;
+    max-width: 700px;
+    height: auto;
+    width: 100%
+  }
   
   :root{
     --cursorX: 50vw;
