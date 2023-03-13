@@ -14,7 +14,16 @@
   height: auto;
   width: 100%
 }
-  
+
+.img3 {
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+  max-width: 700px;
+  height: auto;
+  width: 100%
+}
+
 .container {
     position: relative;
 }
