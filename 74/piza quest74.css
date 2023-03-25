@@ -22,4 +22,8 @@ h1 {
     background-color: #3b2d42;
   }
 
+  .martha{
+    color: #750085;
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+  }
 

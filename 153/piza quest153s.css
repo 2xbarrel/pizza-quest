@@ -1,0 +1,26 @@
+h1 {
+    top:1000px;
+    animation: rising 3s linear 1.5s normal forwards;
+    position:relative;
+}
+
+.box {
+    top:1000px;
+    position:relative;
+    animation: rising 3s linear 1.5s normal forwards;
+}
+
+.img {
+    top:1000px;
+    position:relative;
+    animation: rising 3s linear 1.5s normal forwards;
+}
+
+body {
+    overflow: hidden;
+}
+
+@keyframes rising {
+    0%{top:1000px}
+    100%{top:0px}
+}

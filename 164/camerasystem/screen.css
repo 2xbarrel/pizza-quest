@@ -1,0 +1,35 @@
+.img1 {
+    height: auto;
+    max-width: 700px; 
+  }
+  
+  .img2 {
+    z-index: -1;
+    min-width: 700px; 
+    height: auto;
+    position: absolute;
+  }
+
+  area {
+    cursor: pointer;
+  }
+
+  div {
+    height: auto;
+    position: relative;
+  }
+
+  @media screen and (max-width: 653px) {
+    div {
+      width: 80vw;
+    }
+  
+    .img2 {
+      min-width: 82vw;
+    }
+  
+    .img1 {
+      width: 80vw;
+    }
+  
+  }

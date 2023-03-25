@@ -1,0 +1,28 @@
+body {
+  background-color:rgb(47, 59, 47);
+}
+  
+h1 {
+  color: black;
+}
+  
+h2 {
+  color: black;
+}
+  
+h3 {
+  color: black;
+}
+  
+.box {
+  border: 10px solid black;
+}
+
+.jef{
+  text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+}
+
+.scientist{
+  text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+}
+  
