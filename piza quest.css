@@ -4,6 +4,21 @@
 }
 
 @font-face {
+  font-family: "BP";
+  src: url("fonts/BitPap.ttf");
+}
+
+@font-face {
+  font-family: "DH";
+  src: url("fonts/DoubleHomicide.ttf");
+}
+
+@font-face {
+  font-family: "SHP";
+  src: url("fonts/SHPinscher-Regular.otf");
+}
+
+@font-face {
   font-family: "UP";
   src: url("fonts/UP.ttf");
 }
