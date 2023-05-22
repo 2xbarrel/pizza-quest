@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(22, 34, 36);
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    color: black;
+}
+
+.box {
+    border: 8px solid black;
+}
+
+.cat {
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+}
