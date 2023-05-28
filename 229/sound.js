@@ -1,0 +1,1 @@
+new Audio("screamsequel.mp3").play();

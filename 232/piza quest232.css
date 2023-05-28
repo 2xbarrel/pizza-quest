@@ -1,0 +1,37 @@
+.img {
+    opacity: 1;
+    max-width: 700px;
+    position: absolute;  
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    transform: translateX(-30px);
+    animation: moveRight 3s ease-in-out 1s normal forwards;
+    
+}
+  
+.img2 {
+    opacity: 1;
+    z-index: -1;
+    max-width: 700px;
+    height: auto;
+    width: 100%;
+    filter: blur(7px);
+    animation: blurout 3s ease-in-out 1s normal forwards;
+}
+
+.container {
+    position: relative;
+}
+
+@keyframes blurout {
+    0%{filter: blur(7px)}
+    100%{filter: blur(0px)}
+}
+
+@keyframes moveRight {
+    0%{transform: translateX(-30px)}
+    0%{filter: blur(0px)}
+    100%{transform: translateX(70px)}
+    100%{filter: blur(5px)}
+}
