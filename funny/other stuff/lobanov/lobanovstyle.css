@@ -1,0 +1,211 @@
+@font-face {
+    font-family: "h1";
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
+}
+  
+@font-face {
+    font-family: "h2";
+    src: url("Halogen_0.ttf");
+}
+
+:root {
+    --color1: rgb(128, 193, 255);
+    --color2: rgb(116, 176, 255);
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: repeating-linear-gradient(45deg, var(--color1), var(--color1) 10px, var(--color2) 10px, var(--color2) 20px);
+}
+
+.corners-top {
+    border-radius: 30px 30px 0px 0px;
+}
+
+.corners-bottom {
+    border-radius: 0px 0px 30px 30px;
+}
+
+.dialogueBox {
+    padding: 7px;
+    margin-top: 10px;
+    min-width: 730px;
+    border: 3px solid  var(--color1); 
+    border-radius: 5px 5px 5px 5px;
+}
+
+.visual {
+    position: relative;
+    width: 730px;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    border-radius: 5px 5px 5px 5px;
+}
+
+.char {
+    opacity: 0;
+}
+
+.char2 {
+    opacity: 0;
+    transform: scaleX(-1);
+}
+
+.Artemiy {
+    color: rgb(255, 89, 0);
+}
+
+.Elise {
+    color: rgb(0, 72, 186);
+}
+
+.Hilde {
+    color: rgb(154, 33, 62);
+}
+
+.Erik {
+    color: rgb(41, 130, 0);
+}
+
+.Grace {
+    color: rgb(132, 0, 154);
+}
+
+.Caitlin {
+    color: rgb(53, 133, 102);
+}
+
+.Brodie {
+    color: rgb(255, 0, 28);
+}
+
+.Death {
+    color: rgb(102, 102, 102);
+}
+
+.Eve {
+    color: rgb(255, 210, 234);
+}
+
+.Samael {
+    color: rgb(255, 140, 115);
+}
+
+.STOPLOOKINGHERE {
+    color: rgb(0, 0, 0);
+}
+
+.think {
+    color: rgb(90, 90, 90);
+}
+
+.Juno {
+    color: rgb(0, 255, 149);
+}
+
+.Barl {
+    color: rgb(255, 255, 255);
+}
+
+.Лобанов {
+    color: rgb(70, 181, 255);
+}
+
+.Быков {
+    color: rgb(43, 32, 197);
+}
+
+.Hanako {
+    color: rgb(145, 32, 197);
+}
+
+.bg {
+   position: absolute;
+}
+
+.button {
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 20px;
+    width: 100%;
+    max-width: 720px;
+    background-color: rgb(0, 0, 0);
+    height: auto;
+}
+
+h1 {
+    font-family: "h2";
+    margin: -3px;
+    color: var(--color1);
+    font-size: 50px;
+}
+
+h2 {
+    font-family: "h2";
+    margin: 2px;
+    color: white;
+    font-size: 30px;
+}
+
+a {
+    color: var(--color1);
+    text-decoration: underline 2px white;
+}
+ 
+a:visited {
+    text-decoration: underline 2px white;
+    color: var(--color1);
+}
+
+@media screen and (max-width: 730px) {    
+    h1 {
+      font-size: 5vw;
+    }
+    
+    h2 {
+      font-size: 6vw;
+    }
+
+    img {
+        max-width: 97vw;
+    }
+
+    .visual {
+        width: 97vw;
+    }
+
+    .char {
+        max-width: 50vw;
+        max-height: 50vw;
+    }
+
+    .char2 {
+        max-width: 50vw;
+        max-height: 50vw;
+    }
+
+    .dialogueBox {
+        min-width: 90vw;
+    }
+
+    .box {
+        max-width: 90vw;
+    }
+}
