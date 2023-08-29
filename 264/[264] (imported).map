@@ -1,0 +1,15 @@
+<img src="[264] (imported)" width="1000" height="600" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:barrel -->
+<area shape="poly" coords="71,156,207,202,204,438,76,518" href="door" />
+<area shape="poly" coords="230,271,387,271,421,297,423,412,390,438,232,438" href="shelf" />
+<area shape="poly" coords="445,191,656,189,658,325,444,326" href="drawingboard" />
+<area shape="poly" coords="696,352,675,365,662,409,667,454,746,476,837,459,846,441,848,415,841,392,827,367,754,380" href="barrel" />
+<area shape="poly" coords="691,275,680,269,677,282,703,324,718,318,731,323,735,258,693,247" href="hand" />
+<area shape="poly" coords="930,263,853,220,837,254,898,287,844,311,870,347,936,312,983,339,988,239" href="wood" />
+</map>
