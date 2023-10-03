@@ -97,3 +97,5 @@ function inscryption() {
         output.innerHTML = "wrong, fak u";
     }
 };
+
+// what
