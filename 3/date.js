@@ -22,3 +22,9 @@ if (date.getDate() === 28 && date.getMonth() === 1){
   title.innerHTML = "iso quest";
   text.innerHTML = "This is you-.... This is not you actually, this is Quazi and Iso, what the hell are they doing here?";
 };
+
+if (date.getDate() === 1 && date.getMonth() === 10){
+  img.src = "ebobo.png";
+  title.innerHTML = "NAD QUEST";
+   text.innerHTML = "This is you-.... This is not you actually, this is Nad, Kumani and Ambrose, what the hell are they doing in your house";
+};
